@@ -31,19 +31,22 @@ body{
 }
 
 #boxcard > div > div > div{
-  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 #boxcard > div > div > div.front{
   border: 1px solid var(--gray-10)!important;
-  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 
 }
 
 #boxcard > div > div > div.back{
   background: var(--white) !important;
   border: 1px solid var(--light-gray)!important;
-  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 
 }
 
@@ -108,6 +111,6 @@ body{
         -ms-user-select: none;
             user-select: none;
     background: -o-linear-gradient(top, var(--white),var(--black));
-    background: -webkit-gradient(linear, left top, left bottom, from(var(--white),var(--black)));
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--white)),to(var(--black)));
     background: linear-gradient(to bottom, var(--white),var(--black));
 }
