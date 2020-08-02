@@ -61,7 +61,7 @@ body{
 }
 
 
-#boxcard > div.flippedDone > div div div div div{
+#boxcard > div.flippedDone > div > div > div > div > div{
   border: 4px solid var(--green)!important;
   border-radius: 5px!important;
 }
