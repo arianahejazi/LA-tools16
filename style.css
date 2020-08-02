@@ -8,6 +8,7 @@
   --blue : #0f6ce3;
   --light-gray-10: #f9f9f9;
   --light-gray: #d2d2d2;
+  --gray-10: #ababab;
   --gray:#959595;
   --white : #ffffff;
   --light-black :#353535;
@@ -34,13 +35,13 @@ body{
 }
 
 #boxcard > div > div > div.front{
-  border: 1px solid var(--light-gray)!important;
+  border: 1px solid var(--gray-10)!important;
   box-shadow: none !important;
 
 }
 
 #boxcard > div > div > div.back{
-  background: var(--light-gray) !important;
+  background: var(--white) !important;
   border: 1px solid var(--light-gray)!important;
   box-shadow: none !important;
 
@@ -56,28 +57,6 @@ body{
   color: var(--light-black)!important;
 }
 
-.card.wrong{
-  border: 2px solid var(--red)!important;
-  background: var(--light-red)!important;
-}
-
-/* check solve button */
-#checkSolutionBtn{
-  background: var(--light-green)!important;
-  color: var(--dark-green)!important;
-  padding: 21px 23px!important;
-  width: 80px!important;
-  height: 80px!important;
-  -webkit-box-shadow: none!important;
-          box-shadow: none!important;
-  font-size: 30px!important;
-  border: 2px solid var(--dark-green)!important;
-  margin: 5px 10px!important;
-}
-
-#checkSolutionBtn:hover{
-  opacity: 0.7!important;
-}
 
 /* meseage */
 #AppClientTaskPanel{
