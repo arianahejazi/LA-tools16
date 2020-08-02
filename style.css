@@ -14,6 +14,7 @@
   --light-black :#353535;
   --black: #000000;
   --light-green:#b0e4b4;
+  --green :#8ad472;
   --dark-green:#3b533d;
   --light-red:#ffacaa;
   --red:#fd7a91;
@@ -54,9 +55,15 @@ body{
   border-radius: 9px!important;
 }
 
-#boxcard > .cardInner div{
+#boxcard .cardInner {
   font-size: 1.5em!important;
   color: var(--light-black)!important;
+}
+
+
+#boxcard > div.flippedDone > div div div div div{
+  border: 4px solid var(--green)!important;
+  border-radius: 5px!important;
 }
 
 
