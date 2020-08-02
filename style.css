@@ -48,7 +48,6 @@ body{
 }
 
 #boxcard > div img{
-  border: 5px solid var(--white)!important;
   border-radius: 9px!important;
 }
 
