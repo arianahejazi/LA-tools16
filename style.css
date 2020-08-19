@@ -125,3 +125,8 @@
       background: linear-gradient(to bottom, var(--white),var(--black));
   }
   
+
+/* display none of full screen */
+#AppClientFullscreenButton{
+    display: none !important;
+}
